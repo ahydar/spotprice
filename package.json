@@ -1,0 +1,31 @@
+{
+  "name": "spotprice",
+  "version": "1.0.0",
+  "description": "A chart that displays spot price for bitcoin from coinbase.com",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahydar/spotprice.git"
+  },
+  "keywords": [
+    "Spot",
+    "Price",
+    "Bitcoin",
+    "Coinbase"
+  ],
+  "author": "Abdullah Haydar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahydar/spotprice/issues"
+  },
+  "homepage": "https://github.com/ahydar/spotprice#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "browserify": "^16.2.0",
+    "chartjs": "^0.3.24",
+    "uniq": "^1.0.1"
+  }
+}
